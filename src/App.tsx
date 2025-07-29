@@ -116,9 +116,9 @@ function App() {
 </DataTable>
          <Paginator first={first} rows={rows} totalRecords={120}  onPageChange={onPageChange} />
          <OverlayPanel ref={op}>
-          <div>
-      <InputText type="number" placeholder="Enter row number.." value={numPage} onChange={(e) => setNumPage(e.target.value)}  />
-    <Button label="Submit" type='submit' style={{color:"blue", margin:"7px"}} onClick={handleSel}/>
+          <div style={{display:"flex", flexDirection:"column"}}>
+      <InputText style={{margin:"8px"}} type="number" placeholder="Enter row number.." value={numPage} onChange={(e) => setNumPage(e.target.value) }  />
+    <Button label="Submit" type='submit' style={{color:"blue", margin:"8px"}} onClick={handleSel}/>
           </div>
     
 </OverlayPanel>

@@ -118,7 +118,7 @@ function App() {
          <OverlayPanel ref={op}>
           <div>
       <InputText type="number" placeholder="Enter row number.." value={numPage} onChange={(e) => setNumPage(e.target.value)}  />
-    <Button label="Submit" type='submit' style={{color:"blue", marginLeft:"7px"}} onClick={handleSel}/>
+    <Button label="Submit" type='submit' style={{color:"blue", margin:"7px"}} onClick={handleSel}/>
           </div>
     
 </OverlayPanel>
